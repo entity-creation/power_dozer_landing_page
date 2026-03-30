@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect} from 'react'
 import './App.css'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { PowerDozerLanding } from './pages/home_page'

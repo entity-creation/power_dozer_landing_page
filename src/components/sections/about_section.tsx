@@ -1,9 +1,4 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-
 export const About = () => {
-  const navigate = useNavigate();
-  const [expanded, setExpanded] = useState(false);
   return (
     <section id="about" className="py-16">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">

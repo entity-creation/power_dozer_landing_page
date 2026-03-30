@@ -1,6 +1,5 @@
 import { FaTools, FaIndustry, FaCogs } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import type { Company } from "../../data/schema";
 
 const icons = [FaTools, FaIndustry, FaCogs];
 export const Services = ( {data} : any) => {

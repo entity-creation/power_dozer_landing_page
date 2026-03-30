@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 import type { WhatsAppContact } from '../../data/schema';
-import { Button } from './button';
 
 interface StickyBarProps{
     phone: string;
