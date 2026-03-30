@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@utility hover-sm {
+  @apply transition-all duration-200 ease-out hover:-translate-y-0.5 
+  transform hover:text-gray-900 cursor-pointer;
+}
+
+@utility label-1{
+  @apply text-sm text-black/40
+}
