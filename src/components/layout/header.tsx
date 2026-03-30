@@ -54,7 +54,7 @@ export default function Header() {
               className="flex-3 text-2xl font-bold hover-sm text-gray-600 pb-3"
               onClick={() => navigate("/")}
             >
-              <img className="h-20" src="/images/dozerLogo.png" alt="" />
+              <img className="h-20 z-9999" src="/images/dozerLogo.png" alt="" />
             </div>
             <div className="text-gray-600 pb-3">
               <div

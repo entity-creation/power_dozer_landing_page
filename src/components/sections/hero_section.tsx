@@ -7,7 +7,7 @@ interface HeroProps {
 }
 export const Hero = ({ data }: HeroProps) => {
   return (
-    <section className="relative rounded-3xl overflow-hidden mx-4 mt-4">
+    <section className="relative rounded-3xl overflow-hidden mx-4 mt-12 md:mt-4">
       <img
         src="/images/shipment.jpg"
         className="w-full h-125 object-cover"
