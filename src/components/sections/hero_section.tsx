@@ -10,7 +10,7 @@ export const Hero = ({ data }: HeroProps) => {
     <section className="relative rounded-3xl overflow-hidden mx-4 mt-4">
       <img
         src="/images/shipment.jpg"
-        className="w-full h-[500px] object-cover"
+        className="w-full h-125 object-cover"
       />
 
       <div className="absolute inset-0 bg-black/60 flex items-center">

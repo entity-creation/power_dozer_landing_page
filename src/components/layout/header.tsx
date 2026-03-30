@@ -15,7 +15,6 @@ const aboutMenu = [
   { name: "Core Values", path: "/core_values", icon: FaInfoCircle },
   { name: "Mission and Vision", path: "/mission_vision", icon: FaInfoCircle },
   { name: "Strategy", path: "/strategy", icon: FaInfoCircle },
-
 ];
 
 const servicesMenu = [
@@ -37,9 +36,9 @@ export default function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   return (
     <>
-      <div className="w-full z-50">
+      <div className="w-full z-9999">
         <div
-          className="py-10 px-10 fixed top-0 right-0 flex flex-col md:hidden justify-end items-end"
+          className="py-10 px-10 z-9999 fixed top-0 right-0 flex flex-col md:hidden justify-end items-end"
           id="mobile"
         >
           <div
