@@ -68,7 +68,7 @@ export const CTA = ({ data }: any) => {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        {/* <form onSubmit={handleSubmit} className="space-y-4">
           <input
             className="w-full border p-3 rounded-lg"
             placeholder="Name"
@@ -97,7 +97,7 @@ export const CTA = ({ data }: any) => {
           <button className="bg-orange-600 text-white px-6 py-3 rounded-lg w-full" disabled={loading}>
             {loading ? "Sending..." : "Send Message"}
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );
