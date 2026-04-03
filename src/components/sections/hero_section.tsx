@@ -8,10 +8,7 @@ interface HeroProps {
 export const Hero = ({ data }: HeroProps) => {
   return (
     <section className="relative rounded-3xl overflow-hidden mx-4 mt-12 md:mt-4">
-      <img
-        src="/images/shipment.jpg"
-        className="w-full h-125 object-cover"
-      />
+      <img src="/images/bgImage.jpg" className="w-full h-125 object-cover" />
 
       <div className="absolute inset-0 bg-black/60 flex items-center">
         <div className="max-w-6xl mx-auto px-6 text-white">
@@ -28,8 +25,9 @@ export const Hero = ({ data }: HeroProps) => {
           </p>
 
           <p className="mt-2 text-gray-300 max-w-xl">
-            From drilling materials to industrial gases—delivering certified quality,
-            24/7 support, and seamless vendor integration.
+            From drilling materials and industrial gases to freight and
+            logistics—delivering certified quality, 24/7 support, and seamless
+            vendor integration.
           </p>
 
           <div className="mt-6 flex gap-4">

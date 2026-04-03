@@ -10,33 +10,25 @@ export const Credibility = () => {
     name: "Corporate Affairs Commission",
     short: "RC: 1412339",
     description: "Company incorporation certificate",
-    authorityLogo: "/logos/cac.png",
-    certificateImage: "/certificates/cac.jpg",
   },
   {
     id: "nmdpra",
     name: "NMDPRA Service Permit",
     short: "NMDPRA/MDOGISP/25/1421948/N328726",
     description: "Permit to operate in oil and gas sector",
-    authorityLogo: "/logos/nmdpra.png",
-    certificateImage: "/certificates/nmdpra.jpg",
   },
-  // {
-  //   id: "tcc",
-  //   name: "TAX Clearance Certificate",
-  //   short: "",
-  //   description: "Certificate for tax payment",
-  //   authorityLogo: "/logos/nmdpra.png",
-  //   certificateImage: "/certificates/nmdpra.jpg",
-  // },
-  // {
-  //   id: "vat",
-  //   name: "Registration as VAT collection agent",
-  //   short: "",
-  //   description: "VAT Collection agent",
-  //   authorityLogo: "/logos/nmdpra.png",
-  //   certificateImage: "/certificates/nmdpra.jpg",
-  // },
+  {
+    id: "tcc",
+    name: "TAX Clearance Certificate",
+    short: "",
+    description: "Certificate for tax payment",
+  },
+  {
+    id: "vat",
+    name: "Registration as VAT collection agent",
+    short: "",
+    description: "VAT Collection agent",
+  },
 
 ];
 

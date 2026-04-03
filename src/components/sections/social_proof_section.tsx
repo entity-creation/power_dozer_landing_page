@@ -7,6 +7,8 @@ export const SocialProof = () => {
     "/images/client5.png",
     "/images/client6.png",
     "/images/client7.png",
+    "/images/client8.png",
+    "/images/client9.jpeg",
   ];
   return (
     <section

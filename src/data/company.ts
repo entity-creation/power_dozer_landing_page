@@ -8,6 +8,7 @@ export const PowerDozerInfo: Company = {
   established: "2017",
   contact: {
     phone: "+2348033014780",
+    phone2: "+2349030939255",
     email: "powerdozer.oil@yahoo.com",
     address: "No. 8 NTA Road, Rumualogu, Port Harcourt, Rivers State",
     whatsapp: {
@@ -32,12 +33,15 @@ export const PowerDozerInfo: Company = {
   gases: {
     title: "Industrial Gases Provision",
     description:
-      "We supply industrial gases for oil & gas, medical and manufacturing industries.",
+      "We supply industrial gases tailored to the needs of oil & gas, manufacturing and the industrial sectors.",
     features: [
       "Oxygen supply",
       "Nitrogen supply",
       "Argon supply",
       "Acetylene supply",
+      "Helium supply",
+      "CO2 supply",
+      "Specialty gases",
       "Gas cylinders",
     ],
     image: "/images/gases.jpg",
@@ -74,19 +78,19 @@ export const PowerDozerInfo: Company = {
       certificateImage: "/images/cert1.png",
     },
     tcc: {
-      name: "",
+      name: "Tax Clearance Certificate",
       number: "",
       description: "This certificate confirms that we are a tax paying organization",
-      logo: "/images/logo3.jpeg",
-      certificateImage: "",
+      logo: "/images/logo3.webp",
+      certificateImage: "/images/cert3.png",
     },
     vat: {
       name: "Value Added Tax",
       number: "",
       description:
         "This certificates allows us to be VAT collection agents",
-      logo: "/images/logo3.jpeg",
-      certificateImage: "",
+      logo: "/images/logo3.webp",
+      certificateImage: "/images/cert4.png",
     },
   },
   whyChooseUs: [

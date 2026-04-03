@@ -1,56 +1,56 @@
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import emailjs from "emailjs-com";
-import { useState } from "react";
+// import emailjs from "emailjs-com";
+// import { useState } from "react";
 
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-}
+// interface FormData {
+//   name: string;
+//   email: string;
+//   message: string;
+// }
 export const CTA = ({ data }: any) => {
-  const [form, setForm] = useState<FormData>({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [loading, setLoading] = useState(false);
-  const [_, setSuccess] = useState<string | null>(null);
+  // const [form, setForm] = useState<FormData>({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
+  // // const [loading, setLoading] = useState(false);
+  // const [_, setSuccess] = useState<string | null>(null);
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-  ) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (
+  //   e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  // ) => {
+  //   setForm({ ...form, [e.target.name]: e.target.value });
+  // };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setLoading(true);
 
-    emailjs
-      .send(
-        "service_c538fgo", // replace with your EmailJS service ID
-        "template_na2wpuh", // replace with your template ID
-        {
-          name: form.name,
-          email: form.email,
-          message: form.message,
-        },
-        "6qjkwyGcd1ulzZGmJ", // replace with your public key
-      )
-      .then(
-        (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-          setSuccess("Email sent successfully!");
-          setForm({ name: "", email: "", message: "" });
-          setLoading(false);
-        },
-        (err) => {
-          console.error("FAILED...", err);
-          setSuccess("Failed to send email.");
-          setLoading(false);
-        },
-      );
-  };
+  //   emailjs
+  //     .send(
+  //       "service_c538fgo", // replace with your EmailJS service ID
+  //       "template_na2wpuh", // replace with your template ID
+  //       {
+  //         name: form.name,
+  //         email: form.email,
+  //         message: form.message,
+  //       },
+  //       "6qjkwyGcd1ulzZGmJ", // replace with your public key
+  //     )
+  //     .then(
+  //       (response) => {
+  //         console.log("SUCCESS!", response.status, response.text);
+  //         setSuccess("Email sent successfully!");
+  //         setForm({ name: "", email: "", message: "" });
+  //         setLoading(false);
+  //       },
+  //       (err) => {
+  //         console.error("FAILED...", err);
+  //         setSuccess("Failed to send email.");
+  //         setLoading(false);
+  //       },
+  //     );
+  // };
   return (
     <section id="contact" className="bg-white rounded-3xl p-10 shadow-md">
       <h2 className="text-2xl font-bold mb-6">REACH OUT TO US</h2>

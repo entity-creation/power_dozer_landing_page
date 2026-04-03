@@ -14,6 +14,7 @@ export type Company = {
 
 export type Contact = {
     phone: string;
+    phone2: string;
     email: string;
     address: string;
     whatsapp: WhatsAppContact;
