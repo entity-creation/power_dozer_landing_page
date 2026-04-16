@@ -64,6 +64,9 @@ export const CTA = ({ data }: any) => {
             <FaPhone /> {data.contact.phone}
           </p>
           <p className="flex gap-3 items-center">
+            <FaPhone /> {data.contact.phone2}
+          </p>
+          <p className="flex gap-3 items-center">
             <FaEnvelope /> {data.contact.email}
           </p>
         </div>
